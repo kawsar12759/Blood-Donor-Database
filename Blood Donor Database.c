@@ -12,7 +12,7 @@ struct node
     struct node *link;
 }*start;
 
-void Create_List()
+void Make_List()
 {
     struct node *q,*tmp;
     char a[40],b[7],c[15];
@@ -263,7 +263,7 @@ void main()
             scanf ("%d",&n);
             for(i = 0; i<n; i++)
             {
-                Create_List();
+                Make_List();
             }
             printf("\n");
             break;
